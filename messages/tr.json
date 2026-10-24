@@ -1,0 +1,119 @@
+{
+  "common": {
+    "appName": "Taksit & Birikim",
+    "tagline": "Tüm taksitlerin ve birikimin tek yerde.",
+    "continue": "Devam et",
+    "save": "Kaydet",
+    "saving": "Kaydediliyor…",
+    "saved": "Kaydedildi",
+    "cancel": "Vazgeç",
+    "back": "Geri",
+    "required": "zorunlu",
+    "optional": "isteğe bağlı",
+    "genericError": "Bir şeyler ters gitti. Lütfen tekrar dene.",
+    "offline": "Çevrimdışısın. Son yüklenen bilgileri görüyorsun.",
+    "skipToContent": "İçeriğe geç"
+  },
+  "nav": {
+    "label": "Ana menü",
+    "home": "Ana sayfa",
+    "account": "Hesap"
+  },
+  "login": {
+    "title": "Giriş yap",
+    "subtitle": "Kart taksitlerini ve birikimini tek ekranda gör. Banka şifren hiçbir zaman istenmez.",
+    "emailLabel": "E-posta adresin",
+    "emailPlaceholder": "ornek@eposta.com",
+    "sendLink": "Giriş bağlantısı gönder",
+    "sending": "Gönderiliyor…",
+    "linkSent": "{email} adresine bir giriş bağlantısı gönderdik. E-postandaki bağlantıya dokun.",
+    "linkSentHint": "E-posta birkaç dakika içinde gelmezse gereksiz klasörüne bak.",
+    "or": "ya da",
+    "google": "Google ile devam et",
+    "noticeLink": "Aydınlatma metni",
+    "invalidEmail": "Geçerli bir e-posta adresi yaz.",
+    "linkExpired": "Bu giriş bağlantısının süresi dolmuş ya da kullanılmış. Yeni bir bağlantı iste.",
+    "deleted": "Hesabın ve tüm verilerin silindi.",
+    "promises": {
+      "title": "Sana söz veriyoruz",
+      "noBank": "Bankana bağlanmayız, para tutmayız ya da göndermeyiz.",
+      "noCardNumber": "Kart numaranın yalnızca son 4 hanesini saklarız.",
+      "delete": "Verilerini istediğin an indirir ya da tamamen silersin."
+    }
+  },
+  "consent": {
+    "title": "Verilerin hakkında",
+    "intro": "Başlamadan önce verilerini nasıl işlediğimizi okumanı ve aşağıdaki onayları vermeni istiyoruz.",
+    "readNotice": "Aydınlatma metnini oku",
+    "kvkkLabel": "Aydınlatma metnini okudum ve anladım.",
+    "abroadLabel": "Verilerimin, hizmetin çalışması için yurt dışındaki sunuculara (Supabase, Vercel, OpenAI, Resend, PostHog) aktarılmasına açık rıza veriyorum.",
+    "abroadHelp": "Uygulamanın sunucuları Avrupa Birliği'nde bulunuyor. Bu onay olmadan hizmeti sunamıyoruz.",
+    "analyticsLabel": "Uygulamayı geliştirmek için anonim kullanım istatistikleri toplanabilir.",
+    "analyticsHelp": "Tutarlar, mağaza adları ya da banka bilgileri asla gönderilmez.",
+    "marketingLabel": "Yeni özellikler ve kampanyalar hakkında e-posta almak istiyorum.",
+    "submit": "Onayla ve devam et",
+    "mustAccept": "Devam etmek için zorunlu iki onayı vermelisin."
+  },
+  "welcome": {
+    "title": "Hoş geldin!",
+    "intro": "Taksit & Birikim üç soruya cevap verir:",
+    "point1": "Bu ay hangi kartına ne kadar taksit ödeyeceksin?",
+    "point2": "Önümüzdeki 12 ayda taksit yükün nasıl değişiyor?",
+    "point3": "Birikimin enflasyonun önünde mi, gerisinde mi?",
+    "nameLabel": "Sana nasıl hitap edelim?",
+    "namePlaceholder": "Adın",
+    "start": "Başla"
+  },
+  "install": {
+    "title": "Uygulama gibi kullan",
+    "body": "Ana ekranına ekle, tek dokunuşla aç ve hatırlatmaları al.",
+    "button": "Ana ekrana ekle",
+    "iosSteps": "Safari'de Paylaş simgesine, sonra \"Ana Ekrana Ekle\"ye dokun.",
+    "dismiss": "Şimdi değil"
+  },
+  "home": {
+    "greeting": "Merhaba {name}",
+    "greetingNoName": "Merhaba",
+    "dueThisMonth": "Bu ay ödeyeceğin",
+    "emptyTitle": "İlk kartını ekleyerek başla",
+    "emptyBody": "Kartlarını ve taksitli alışverişlerini ekledikçe bu ay ve önümüzdeki 12 ay ne ödeyeceğini burada göreceksin.",
+    "comingSoon": "Kart ekleme bir sonraki sürümde geliyor."
+  },
+  "account": {
+    "title": "Hesap",
+    "signedInAs": "{email} ile giriş yaptın",
+    "plan": "Plan",
+    "planFree": "Ücretsiz",
+    "planPremium": "Premium",
+    "profileSection": "Profil",
+    "nameLabel": "Adın",
+    "languageLabel": "Dil",
+    "languageTr": "Türkçe",
+    "languageEn": "English",
+    "consentsSection": "İzinler",
+    "consentsHelp": "Bu izinleri istediğin zaman değiştirebilirsin.",
+    "analytics": "Anonim kullanım istatistikleri",
+    "marketing": "Kampanya ve yenilik e-postaları",
+    "abroadNote": "Yurt dışına aktarım onayını geri çekmek istersen hesabını silmen gerekir, çünkü hizmet bu sunucular olmadan çalışmaz.",
+    "noticeLink": "Aydınlatma metni",
+    "dataSection": "Verilerin",
+    "export": "Verilerimi indir",
+    "exportHelp": "Tüm verilerin tek bir JSON dosyası olarak iner.",
+    "deleteSection": "Hesabı sil",
+    "deleteHelp": "Hesabın, kartların, taksitlerin, birikimlerin ve tüm kayıtların kalıcı olarak silinir. Bu işlem geri alınamaz.",
+    "deleteConfirmLabel": "Onaylamak için {word} yaz",
+    "deleteWord": "SİL",
+    "deleteButton": "Hesabımı ve tüm verilerimi sil",
+    "deleting": "Siliniyor…",
+    "deleteMismatch": "Onay kelimesi eşleşmedi.",
+    "signOut": "Çıkış yap"
+  },
+  "notice": {
+    "title": "Aydınlatma metni",
+    "draft": "Taslak: yayına almadan önce bir avukat tarafından gözden geçirilmeli."
+  },
+  "offlinePage": {
+    "title": "Çevrimdışısın",
+    "body": "Bu sayfayı daha önce açmadığın için gösteremiyoruz. İnternete bağlanınca tekrar dene."
+  }
+}

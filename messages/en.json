@@ -1,0 +1,119 @@
+{
+  "common": {
+    "appName": "Taksit & Birikim",
+    "tagline": "All your installments and savings in one place.",
+    "continue": "Continue",
+    "save": "Save",
+    "saving": "Saving…",
+    "saved": "Saved",
+    "cancel": "Cancel",
+    "back": "Back",
+    "required": "required",
+    "optional": "optional",
+    "genericError": "Something went wrong. Please try again.",
+    "offline": "You're offline. You're seeing the last loaded data.",
+    "skipToContent": "Skip to content"
+  },
+  "nav": {
+    "label": "Main menu",
+    "home": "Home",
+    "account": "Account"
+  },
+  "login": {
+    "title": "Sign in",
+    "subtitle": "See your card installments and savings on one screen. We never ask for your bank password.",
+    "emailLabel": "Your email address",
+    "emailPlaceholder": "you@example.com",
+    "sendLink": "Send me a sign-in link",
+    "sending": "Sending…",
+    "linkSent": "We sent a sign-in link to {email}. Tap the link in the email.",
+    "linkSentHint": "If it doesn't arrive in a few minutes, check your spam folder.",
+    "or": "or",
+    "google": "Continue with Google",
+    "noticeLink": "Privacy notice",
+    "invalidEmail": "Enter a valid email address.",
+    "linkExpired": "This sign-in link has expired or was already used. Ask for a new one.",
+    "deleted": "Your account and all your data were deleted.",
+    "promises": {
+      "title": "Our promises",
+      "noBank": "We never connect to your bank, hold money or move it.",
+      "noCardNumber": "We store only the last 4 digits of your card.",
+      "delete": "Download or fully delete your data whenever you want."
+    }
+  },
+  "consent": {
+    "title": "About your data",
+    "intro": "Before you start, please read how we process your data and give the consents below.",
+    "readNotice": "Read the privacy notice",
+    "kvkkLabel": "I have read and understood the privacy notice.",
+    "abroadLabel": "I give my explicit consent to my data being transferred to servers abroad (Supabase, Vercel, OpenAI, Resend, PostHog) so the service can work.",
+    "abroadHelp": "The app's servers are in the European Union. We can't provide the service without this consent.",
+    "analyticsLabel": "Anonymous usage statistics may be collected to improve the app.",
+    "analyticsHelp": "Amounts, merchant names and bank details are never sent.",
+    "marketingLabel": "I'd like to get emails about new features and offers.",
+    "submit": "Agree and continue",
+    "mustAccept": "Please give the two required consents to continue."
+  },
+  "welcome": {
+    "title": "Welcome!",
+    "intro": "Taksit & Birikim answers three questions:",
+    "point1": "How much do you owe on each card this month?",
+    "point2": "How will your installment load change over the next 12 months?",
+    "point3": "Are your savings beating inflation or falling behind?",
+    "nameLabel": "What should we call you?",
+    "namePlaceholder": "Your name",
+    "start": "Start"
+  },
+  "install": {
+    "title": "Use it like an app",
+    "body": "Add it to your home screen, open it with one tap and get reminders.",
+    "button": "Add to home screen",
+    "iosSteps": "In Safari, tap the Share icon, then \"Add to Home Screen\".",
+    "dismiss": "Not now"
+  },
+  "home": {
+    "greeting": "Hello {name}",
+    "greetingNoName": "Hello",
+    "dueThisMonth": "Due this month",
+    "emptyTitle": "Start by adding your first card",
+    "emptyBody": "As you add cards and installment purchases, you'll see what you owe this month and over the next 12 months here.",
+    "comingSoon": "Adding cards arrives in the next version."
+  },
+  "account": {
+    "title": "Account",
+    "signedInAs": "Signed in as {email}",
+    "plan": "Plan",
+    "planFree": "Free",
+    "planPremium": "Premium",
+    "profileSection": "Profile",
+    "nameLabel": "Your name",
+    "languageLabel": "Language",
+    "languageTr": "Türkçe",
+    "languageEn": "English",
+    "consentsSection": "Permissions",
+    "consentsHelp": "You can change these permissions at any time.",
+    "analytics": "Anonymous usage statistics",
+    "marketing": "Offer and news emails",
+    "abroadNote": "To withdraw consent to the transfer abroad you need to delete your account, because the service can't run without these servers.",
+    "noticeLink": "Privacy notice",
+    "dataSection": "Your data",
+    "export": "Download my data",
+    "exportHelp": "All your data downloads as a single JSON file.",
+    "deleteSection": "Delete account",
+    "deleteHelp": "Your account, cards, installments, savings and every record are permanently deleted. This cannot be undone.",
+    "deleteConfirmLabel": "Type {word} to confirm",
+    "deleteWord": "DELETE",
+    "deleteButton": "Delete my account and all my data",
+    "deleting": "Deleting…",
+    "deleteMismatch": "The confirmation word didn't match.",
+    "signOut": "Sign out"
+  },
+  "notice": {
+    "title": "Privacy notice",
+    "draft": "Draft: must be reviewed by a lawyer before launch."
+  },
+  "offlinePage": {
+    "title": "You're offline",
+    "body": "We can't show this page because you haven't opened it before. Try again when you're back online."
+  }
+}

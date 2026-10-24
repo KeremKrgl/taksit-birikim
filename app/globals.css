@@ -1,26 +1,96 @@
 @import "tailwindcss";
 
+/* Light and dark tokens. Text/background pairs keep at least 4.5:1 contrast. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f6f7f5;
+  --foreground: #14201b;
+  --card: #ffffff;
+  --card-foreground: #14201b;
+  --muted: #eceee9;
+  --muted-foreground: #4b5751;
+  --border: #d5dad4;
+  --input: #c3cac2;
+  --primary: #0b6b4b;
+  --primary-foreground: #ffffff;
+  --secondary: #e3ece6;
+  --secondary-foreground: #0d3b2b;
+  --destructive: #b42318;
+  --destructive-foreground: #ffffff;
+  --warning: #8a5a00;
+  --ring: #0b6b4b;
+  --radius: 0.875rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0e1512;
+    --foreground: #e9efeb;
+    --card: #16201b;
+    --card-foreground: #e9efeb;
+    --muted: #1d2924;
+    --muted-foreground: #a9b5ae;
+    --border: #2b3a33;
+    --input: #3a4b43;
+    --primary: #4cc493;
+    --primary-foreground: #06251a;
+    --secondary: #1f3029;
+    --secondary-foreground: #cfe9dc;
+    --destructive: #f97066;
+    --destructive-foreground: #2a0703;
+    --warning: #f5b544;
+    --ring: #4cc493;
+  }
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-warning: var(--warning);
+  --color-ring: var(--ring);
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 4px);
+  /* System fonts: nothing to download, and they follow the phone's text size. */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Money reads better with aligned digits. */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom), 0.5rem);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
